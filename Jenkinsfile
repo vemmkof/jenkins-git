@@ -9,6 +9,7 @@ pipeline {
                     ls -lah
                 '''
                 sh 'echo "update step in Build."'
+                sh 'echo "update with trigger disable'
             }
         }
     }
